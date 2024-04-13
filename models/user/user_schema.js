@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema(
       default: Date.now,
     },
     usertype : {
-      type: schemaType.TypeNumber,
+      type: schemaType.TypeString,
       requried: true,
     },
   },
